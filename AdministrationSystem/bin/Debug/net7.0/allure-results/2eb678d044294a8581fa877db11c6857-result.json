@@ -1,0 +1,101 @@
+{
+  "uuid": "20f787c7-e013-41d1-bcb2-701b17f3515d-tr-0-1039",
+  "historyId": "AdministrationSystem.AdministrationSystem.Organization.GalleryEng.TestsGalleryEng.GalleryPage",
+  "fullName": "AdministrationSystem.AdministrationSystem.Organization.GalleryEng.TestsGalleryEng.GalleryPage",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#8"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-R7CSGCQ"
+    },
+    {
+      "name": "package",
+      "value": "AdministrationSystem.AdministrationSystem.Organization.GalleryEng"
+    },
+    {
+      "name": "testMethod",
+      "value": "GalleryPage"
+    },
+    {
+      "name": "testClass",
+      "value": "TestsGalleryEng"
+    },
+    {
+      "name": "story",
+      "value": "Card title and coordinate X, Y in the page ADD"
+    },
+    {
+      "name": "suite",
+      "value": "Gallery Page"
+    },
+    {
+      "name": "feature",
+      "value": "Organization Page"
+    },
+    {
+      "name": "epic",
+      "value": "Administration System features"
+    }
+  ],
+  "links": [],
+  "name": "GalleryPage",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 50 seconds\r\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[@class='e-control e-btn e-lib btn btn-outline-success']\"}\n  (Session info: chrome=120.0.6099.130); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception",
+    "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at AdministrationSystem.AdministrationSystem.Organization.GalleryEng.TestsGalleryEng.__a$_around_GalleryPage_100663362_o() in D:\\selenium Project C#\\AdministrationSystem\\AdministrationSystem\\AdministrationSystem\\Organization\\Gallery\\GalleryEng.cs:line 64\r\n   at AdministrationSystem.AdministrationSystem.Organization.GalleryEng.TestsGalleryEng.__a$_around_GalleryPage_100663362_u(Object[])\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at AdministrationSystem.AdministrationSystem.Organization.GalleryEng.TestsGalleryEng.__a$_around_GalleryPage_100663362_w_0(Object[])\r\n   at AdministrationSystem.AdministrationSystem.Organization.GalleryEng.TestsGalleryEng.GalleryPage()\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)\r\n--NoSuchElementException\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "GalleryPage",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 50 seconds\r\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[@class='e-control e-btn e-lib btn btn-outline-success']\"}\n  (Session info: chrome=120.0.6099.130); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception",
+        "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at AdministrationSystem.AdministrationSystem.Organization.GalleryEng.TestsGalleryEng.__a$_around_GalleryPage_100663362_o() in D:\\selenium Project C#\\AdministrationSystem\\AdministrationSystem\\AdministrationSystem\\Organization\\Gallery\\GalleryEng.cs:line 64\r\n   at AdministrationSystem.AdministrationSystem.Organization.GalleryEng.TestsGalleryEng.__a$_around_GalleryPage_100663362_u(Object[])\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at AdministrationSystem.AdministrationSystem.Organization.GalleryEng.TestsGalleryEng.__a$_around_GalleryPage_100663362_w_0(Object[])\r\n   at AdministrationSystem.AdministrationSystem.Organization.GalleryEng.TestsGalleryEng.GalleryPage()\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)\r\n--NoSuchElementException\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Card title and coordinate X, Y in the page ADD",
+          "status": "failed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "Timed out after 50 seconds",
+            "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at AdministrationSystem.AdministrationSystem.Organization.GalleryEng.TestsGalleryEng.__a$_around_GalleryPage_100663362_o() in D:\\selenium Project C#\\AdministrationSystem\\AdministrationSystem\\AdministrationSystem\\Organization\\Gallery\\GalleryEng.cs:line 64\r\n   at AdministrationSystem.AdministrationSystem.Organization.GalleryEng.TestsGalleryEng.__a$_around_GalleryPage_100663362_u(Object[])\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1704536927601,
+          "stop": 1704537045446
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "9adf6a62466149c5ba5183221484af17-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1704536903768,
+      "stop": 1704537045600
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1704536903767,
+  "stop": 1704537045605
+}

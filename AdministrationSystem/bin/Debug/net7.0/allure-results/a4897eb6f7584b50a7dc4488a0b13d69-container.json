@@ -1,0 +1,30 @@
+{
+  "uuid": "81ee010d-a793-49d2-b501-8cafbe4de1f0-tc-0-1000",
+  "name": "AdministrationSystem.AdministrationSystem.SetUp.LanguageDefinitionArabic.TestsLanguageDefinitionArabicPage.LanguageDefinitionPage",
+  "children": [
+    "c025e747-8511-4b55-9dde-7e12504b0ff3-tr-0-1001"
+  ],
+  "befores": [
+    {
+      "name": "SetUp",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverException : The HTTP request to the remote WebDriver server for URL http://localhost:53824/session/b27f5acbb51dc2ffe644f92d3e756e28/element timed out after 60 seconds.\r\n  ----> System.Threading.Tasks.TaskCanceledException : The request was canceled due to the configured HttpClient.Timeout of 60 seconds elapsing.\r\n  ----> System.TimeoutException : The operation was canceled.\r\n  ----> System.Threading.Tasks.TaskCanceledException : The operation was canceled.\r\n  ----> System.IO.IOException : Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..\r\n  ----> System.Net.Sockets.SocketException : The I/O operation has been aborted because of either a thread exit or an application request.",
+        "trace": "   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at AdministrationSystem.AdministrationSystem.SetUp.LanguageDefinitionArabic.TestsLanguageDefinitionArabicPage.__a$_around_LanguageDefinitionPage_100663304_o() in D:\\selenium Project C#\\AdministrationSystem\\AdministrationSystem\\AdministrationSystem\\SetUp\\LanguageDefinition\\LanguageDefinitionArabic.cs:line 46\r\n   at AdministrationSystem.AdministrationSystem.SetUp.LanguageDefinitionArabic.TestsLanguageDefinitionArabicPage.__a$_around_LanguageDefinitionPage_100663304_u(Object[])\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at AdministrationSystem.AdministrationSystem.SetUp.LanguageDefinitionArabic.TestsLanguageDefinitionArabicPage.__a$_around_LanguageDefinitionPage_100663304_w_0(Object[])\r\n   at AdministrationSystem.AdministrationSystem.SetUp.LanguageDefinitionArabic.TestsLanguageDefinitionArabicPage.LanguageDefinitionPage()\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)\r\n--TaskCanceledException\r\n   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)\r\n   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.<>c__DisplayClass32_0.<<Execute>b__0>d.MoveNext()\r\n--- End of stack trace from previous location ---\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)\r\n--TimeoutException\r\n\r\n--TaskCanceledException\r\n   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)\r\n   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)\r\n--IOException\r\n   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)\r\n   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)\r\n   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\r\n--SocketException\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1700319153467,
+      "stop": 1700319153467
+    }
+  ],
+  "afters": [],
+  "links": [],
+  "start": 1700319009710,
+  "stop": 1700319153525
+}

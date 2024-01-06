@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.7.1" />
+    <PackageReference Include="NUnit" Version="3.13.3" />
+    <PackageReference Include="NUnit.Allure" Version="1.2.0.1" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.4.2" />
+    <PackageReference Include="NUnit.Analyzers" Version="3.6.1" />
+    <PackageReference Include="coverlet.collector" Version="3.2.0" />
+    <PackageReference Include="Selenium.Support" Version="4.15.0" />
+    <PackageReference Include="Selenium.WebDriver" Version="4.15.0" />
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="119.0.6045.10500" />
+    <PackageReference Include="SeleniumExtras.WaitHelpers" Version="1.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="AdministrationSystem\License\MarketPlanHeader\" />
+    <Folder Include="AdministrationSystem\License\RequestlincenseLogin\" />
+    <Folder Include="AdministrationSystem\License\SystemLICENSE\" />
+    <Folder Include="AdministrationSystem\License\SoftwarePricing\" />
+    <Folder Include="AdministrationSystem\NotificationsService\MessageManagement\" />
+    <Folder Include="AdministrationSystem\NotificationsService\Notificationmessages\" />
+    <Folder Include="AdministrationSystem\ProjectManagement\ProjectPhase\" />
+    <Folder Include="AdministrationSystem\ProjectManagement\ProjectDefinition\" />
+    <Folder Include="AdministrationSystem\Reports\LogSystem\" />
+    <Folder Include="AdministrationSystem\Reports\DynamicReport\" />
+    <Folder Include="AdministrationSystem\Reports\PrintDynamicReport\" />
+    <Folder Include="AdministrationSystem\Security\FieldFormSecurity\" />
+    <Folder Include="AdministrationSystem\Security\SecurityDynamicReport\" />
+    <Folder Include="AdministrationSystem\Security\SecurityProcess\" />
+    <Folder Include="AdministrationSystem\Security\SecurityField\" />
+    <Folder Include="AdministrationSystem\Security\TreeSecurityArch\" />
+    <Folder Include="AdministrationSystem\Security\PageSecurity\" />
+    <Folder Include="AdministrationSystem\User\LayoutThem\" />
+    <Folder Include="AdministrationSystem\User\UserShortCut\" />
+    <Folder Include="AdministrationSystem\User\UserRole\" />
+    <Folder Include="AdministrationSystem\User\Role\" />
+    <Folder Include="AdministrationSystem\User\USER\" />
+  </ItemGroup>
+
+</Project>

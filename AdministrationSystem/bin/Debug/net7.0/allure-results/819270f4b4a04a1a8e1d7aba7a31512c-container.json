@@ -1,0 +1,28 @@
+{
+  "uuid": "fe10e143-e860-4726-bc0d-ec864515f0a3-tc-0-1004",
+  "name": "AdministrationSystem.AdministrationSystem.SetUp._____Arabic.Tests____PageArabic.____Page",
+  "children": [
+    "67136cf7-ef35-4b6b-93c7-38515674b1b1-tr-0-1005"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1700240473820,
+      "stop": 1700240473820
+    }
+  ],
+  "afters": [],
+  "links": [],
+  "start": 1700240388148,
+  "stop": 1700240473903
+}

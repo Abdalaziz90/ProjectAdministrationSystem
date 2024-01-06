@@ -1,0 +1,28 @@
+{
+  "uuid": "21de6e54-f362-4bff-91d8-c6f323d8860f-tc-0-1042",
+  "name": "AdministrationSystem.AdministrationSystem.Organization.BranchCategoryEng.TestsBranchCategoryEng.BranchCategoryPage",
+  "children": [
+    "bc6f21b0-d9f9-41bf-bfe6-aded314a33ef-tr-0-1043"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1702808421870,
+      "stop": 1702808421870
+    }
+  ],
+  "afters": [],
+  "links": [],
+  "start": 1702808347326,
+  "stop": 1702808421979
+}

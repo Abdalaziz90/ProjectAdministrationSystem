@@ -1,0 +1,101 @@
+{
+  "uuid": "67136cf7-ef35-4b6b-93c7-38515674b1b1-tr-0-1005",
+  "historyId": "AdministrationSystem.AdministrationSystem.SetUp._____Arabic.Tests____PageArabic.____Page",
+  "fullName": "AdministrationSystem.AdministrationSystem.SetUp._____Arabic.Tests____PageArabic.____Page",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#8"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-R7CSGCQ"
+    },
+    {
+      "name": "package",
+      "value": "AdministrationSystem.AdministrationSystem.SetUp._____Arabic"
+    },
+    {
+      "name": "testMethod",
+      "value": "____Page"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests____PageArabic"
+    },
+    {
+      "name": "story",
+      "value": "Card title and card body in the page"
+    },
+    {
+      "name": "suite",
+      "value": "---- Page"
+    },
+    {
+      "name": "feature",
+      "value": "---- Page"
+    },
+    {
+      "name": "epic",
+      "value": "Administration System features"
+    }
+  ],
+  "links": [],
+  "name": "____Page",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Multiple failures or warnings in test:\r\n  1)   Expected string length 4 but was 0. Strings differ at index 0.\r\n  Expected: \"----\"\r\n  But was:  <string.Empty>\r\n  -----------^\r\n\r\n  2)   Expected string length 25 but was 39. Strings differ at index 1.\r\n  Expected: \"Show of page in the table\"\r\n  But was:  \"Sorry, there's nothing at this address.\"\r\n  ------------^\r\n\r\n",
+    "trace": "   at AdministrationSystem.AdministrationSystem.SetUp._____Arabic.Tests____PageArabic.__a$_around_____Page_100663310_o() in D:\\selenium Project C#\\AdministrationSystem\\AdministrationSystem\\AdministrationSystem\\SetUp\\----\\----Arabic.cs:line 68\r\n   at AdministrationSystem.AdministrationSystem.SetUp._____Arabic.Tests____PageArabic.__a$_around_____Page_100663310_u(Object[])\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at AdministrationSystem.AdministrationSystem.SetUp._____Arabic.Tests____PageArabic.__a$_around_____Page_100663310_w_0(Object[])\r\n   at AdministrationSystem.AdministrationSystem.SetUp._____Arabic.Tests____PageArabic.____Page()\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "____Page",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Multiple failures or warnings in test:\r\n  1)   Expected string length 4 but was 0. Strings differ at index 0.\r\n  Expected: \"----\"\r\n  But was:  <string.Empty>\r\n  -----------^\r\n\r\n  2)   Expected string length 25 but was 39. Strings differ at index 1.\r\n  Expected: \"Show of page in the table\"\r\n  But was:  \"Sorry, there's nothing at this address.\"\r\n  ------------^\r\n\r\n",
+        "trace": "   at AdministrationSystem.AdministrationSystem.SetUp._____Arabic.Tests____PageArabic.__a$_around_____Page_100663310_o() in D:\\selenium Project C#\\AdministrationSystem\\AdministrationSystem\\AdministrationSystem\\SetUp\\----\\----Arabic.cs:line 68\r\n   at AdministrationSystem.AdministrationSystem.SetUp._____Arabic.Tests____PageArabic.__a$_around_____Page_100663310_u(Object[])\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at AdministrationSystem.AdministrationSystem.SetUp._____Arabic.Tests____PageArabic.__a$_around_____Page_100663310_w_0(Object[])\r\n   at AdministrationSystem.AdministrationSystem.SetUp._____Arabic.Tests____PageArabic.____Page()\r\n"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Card Title and card body in the page",
+          "status": "failed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "Multiple failures or warnings in test:\r\n  1)   Expected string length 4 but was 0. Strings differ at index 0.\r\n  Expected: \"----\"\r\n  But was:  <string.Empty>\r\n  -----------^\r\n\r\n  2)   Expected string length 25 but was 39. Strings differ at index 1.\r\n  Expected: \"Show of page in the table\"\r\n  But was:  \"Sorry, there's nothing at this address.\"\r\n  ------------^\r\n\r\n",
+            "trace": "   at NUnit.Framework.Assert.Multiple(TestDelegate testDelegate)\r\n   at AdministrationSystem.AdministrationSystem.SetUp._____Arabic.Tests____PageArabic.__a$_around_____Page_100663310_o() in D:\\selenium Project C#\\AdministrationSystem\\AdministrationSystem\\AdministrationSystem\\SetUp\\----\\----Arabic.cs:line 68\r\n   at AdministrationSystem.AdministrationSystem.SetUp._____Arabic.Tests____PageArabic.__a$_around_____Page_100663310_u(Object[])\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1700240402382,
+          "stop": 1700240473795
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "0e24343466d94d0c9f89e1f77c868ece-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1700240388155,
+      "stop": 1700240473833
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1700240388154,
+  "stop": 1700240473845
+}

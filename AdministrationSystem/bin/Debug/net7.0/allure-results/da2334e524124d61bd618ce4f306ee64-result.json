@@ -1,0 +1,101 @@
+{
+  "uuid": "bc6f21b0-d9f9-41bf-bfe6-aded314a33ef-tr-0-1043",
+  "historyId": "AdministrationSystem.AdministrationSystem.Organization.BranchCategoryEng.TestsBranchCategoryEng.BranchCategoryPage",
+  "fullName": "AdministrationSystem.AdministrationSystem.Organization.BranchCategoryEng.TestsBranchCategoryEng.BranchCategoryPage",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-R7CSGCQ"
+    },
+    {
+      "name": "package",
+      "value": "AdministrationSystem.AdministrationSystem.Organization.BranchCategoryEng"
+    },
+    {
+      "name": "testMethod",
+      "value": "BranchCategoryPage"
+    },
+    {
+      "name": "testClass",
+      "value": "TestsBranchCategoryEng"
+    },
+    {
+      "name": "story",
+      "value": "Card title and show the screen in the page"
+    },
+    {
+      "name": "suite",
+      "value": "Branch Category Page"
+    },
+    {
+      "name": "feature",
+      "value": "Organization Page"
+    },
+    {
+      "name": "epic",
+      "value": "Administration System features"
+    }
+  ],
+  "links": [],
+  "name": "BranchCategoryPage",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Multiple failures or warnings in test:\r\n  1)   Expected string length 15 but was 0. Strings differ at index 0.\r\n  Expected: \"Branch Category\"\r\n  But was:  <string.Empty>\r\n  -----------^\r\n\r\n  2)   Expected string length 23 but was 39. Strings differ at index 0.\r\n  Expected: \"show the screen of page\"\r\n  But was:  \"Sorry, there's nothing at this address.\"\r\n  -----------^\r\n\r\n",
+    "trace": "   at AdministrationSystem.AdministrationSystem.Organization.BranchCategoryEng.TestsBranchCategoryEng.__a$_around_BranchCategoryPage_100663368_o() in D:\\selenium Project C#\\AdministrationSystem\\AdministrationSystem\\AdministrationSystem\\Organization\\BranchCategory\\BranchCategoryEng.cs:line 61\r\n   at AdministrationSystem.AdministrationSystem.Organization.BranchCategoryEng.TestsBranchCategoryEng.__a$_around_BranchCategoryPage_100663368_u(Object[])\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at AdministrationSystem.AdministrationSystem.Organization.BranchCategoryEng.TestsBranchCategoryEng.__a$_around_BranchCategoryPage_100663368_w_0(Object[])\r\n   at AdministrationSystem.AdministrationSystem.Organization.BranchCategoryEng.TestsBranchCategoryEng.BranchCategoryPage()\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "BranchCategoryPage",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Multiple failures or warnings in test:\r\n  1)   Expected string length 15 but was 0. Strings differ at index 0.\r\n  Expected: \"Branch Category\"\r\n  But was:  <string.Empty>\r\n  -----------^\r\n\r\n  2)   Expected string length 23 but was 39. Strings differ at index 0.\r\n  Expected: \"show the screen of page\"\r\n  But was:  \"Sorry, there's nothing at this address.\"\r\n  -----------^\r\n\r\n",
+        "trace": "   at AdministrationSystem.AdministrationSystem.Organization.BranchCategoryEng.TestsBranchCategoryEng.__a$_around_BranchCategoryPage_100663368_o() in D:\\selenium Project C#\\AdministrationSystem\\AdministrationSystem\\AdministrationSystem\\Organization\\BranchCategory\\BranchCategoryEng.cs:line 61\r\n   at AdministrationSystem.AdministrationSystem.Organization.BranchCategoryEng.TestsBranchCategoryEng.__a$_around_BranchCategoryPage_100663368_u(Object[])\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at AdministrationSystem.AdministrationSystem.Organization.BranchCategoryEng.TestsBranchCategoryEng.__a$_around_BranchCategoryPage_100663368_w_0(Object[])\r\n   at AdministrationSystem.AdministrationSystem.Organization.BranchCategoryEng.TestsBranchCategoryEng.BranchCategoryPage()\r\n"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Card title and show the screen in the page",
+          "status": "failed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "Multiple failures or warnings in test:\r\n  1)   Expected string length 15 but was 0. Strings differ at index 0.\r\n  Expected: \"Branch Category\"\r\n  But was:  <string.Empty>\r\n  -----------^\r\n\r\n  2)   Expected string length 23 but was 39. Strings differ at index 0.\r\n  Expected: \"show the screen of page\"\r\n  But was:  \"Sorry, there's nothing at this address.\"\r\n  -----------^\r\n\r\n",
+            "trace": "   at NUnit.Framework.Assert.Multiple(TestDelegate testDelegate)\r\n   at AdministrationSystem.AdministrationSystem.Organization.BranchCategoryEng.TestsBranchCategoryEng.__a$_around_BranchCategoryPage_100663368_o() in D:\\selenium Project C#\\AdministrationSystem\\AdministrationSystem\\AdministrationSystem\\Organization\\BranchCategory\\BranchCategoryEng.cs:line 61\r\n   at AdministrationSystem.AdministrationSystem.Organization.BranchCategoryEng.TestsBranchCategoryEng.__a$_around_BranchCategoryPage_100663368_u(Object[])\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1702808354861,
+          "stop": 1702808421857
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "2b6a6f0c9aec40c5a1f5a3e15ccc4bc1-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1702808347333,
+      "stop": 1702808421875
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1702808347332,
+  "stop": 1702808421883
+}

@@ -1,0 +1,30 @@
+{
+  "uuid": "fef387dc-dccb-43da-a61f-80eb073c1cfd-tc-0-1000",
+  "name": "AdministrationSystem.AdministrationSystem.SetUp.LanguageDefinitionArabic.TestsLanguageDefinitionArabicPage.LanguageDefinitionPage",
+  "children": [
+    "e1f19a32-f62b-40a0-8074-85abe7c7c32e-tr-0-1001"
+  ],
+  "befores": [
+    {
+      "name": "SetUp",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 60 seconds\r\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[@class='e-control e-btn e-lib btn btn-outline-success']\"}\n  (Session info: chrome=119.0.6045.159); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception",
+        "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at AdministrationSystem.AdministrationSystem.SetUp.LanguageDefinitionArabic.TestsLanguageDefinitionArabicPage.__a$_around_LanguageDefinitionPage_100663304_o() in D:\\selenium Project C#\\AdministrationSystem\\AdministrationSystem\\AdministrationSystem\\SetUp\\LanguageDefinition\\LanguageDefinitionArabic.cs:line 58\r\n   at AdministrationSystem.AdministrationSystem.SetUp.LanguageDefinitionArabic.TestsLanguageDefinitionArabicPage.__a$_around_LanguageDefinitionPage_100663304_u(Object[])\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at AdministrationSystem.AdministrationSystem.SetUp.LanguageDefinitionArabic.TestsLanguageDefinitionArabicPage.__a$_around_LanguageDefinitionPage_100663304_w_0(Object[])\r\n   at AdministrationSystem.AdministrationSystem.SetUp.LanguageDefinitionArabic.TestsLanguageDefinitionArabicPage.LanguageDefinitionPage()\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)\r\n--NoSuchElementException\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1700241030380,
+      "stop": 1700241030380
+    }
+  ],
+  "afters": [],
+  "links": [],
+  "start": 1700240885567,
+  "stop": 1700241030417
+}

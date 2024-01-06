@@ -1,0 +1,101 @@
+{
+  "uuid": "275e8e9f-8f11-4c68-85b2-105f879cc3c1-tr-0-1045",
+  "historyId": "AdministrationSystem.AdministrationSystem.Organization.BranchCategoryAr.TestsBranchCategoryAr.BranchCategoryPage",
+  "fullName": "AdministrationSystem.AdministrationSystem.Organization.BranchCategoryAr.TestsBranchCategoryAr.BranchCategoryPage",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#8"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-R7CSGCQ"
+    },
+    {
+      "name": "package",
+      "value": "AdministrationSystem.AdministrationSystem.Organization.BranchCategoryAr"
+    },
+    {
+      "name": "testMethod",
+      "value": "BranchCategoryPage"
+    },
+    {
+      "name": "testClass",
+      "value": "TestsBranchCategoryAr"
+    },
+    {
+      "name": "story",
+      "value": "Card title and show the screen in the page"
+    },
+    {
+      "name": "suite",
+      "value": "Branch Category Page"
+    },
+    {
+      "name": "feature",
+      "value": "Organization Page"
+    },
+    {
+      "name": "epic",
+      "value": "Administration System features"
+    }
+  ],
+  "links": [],
+  "name": "BranchCategoryPage",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Multiple failures or warnings in test:\r\n  1)   Expected string length 12 but was 0. Strings differ at index 0.\r\n  Expected: \"تصنيف الفروع\"\r\n  But was:  <string.Empty>\r\n  -----------^\r\n\r\n  2)   Expected string length 23 but was 39. Strings differ at index 0.\r\n  Expected: \"show the screen of page\"\r\n  But was:  \"Sorry, there's nothing at this address.\"\r\n  -----------^\r\n\r\n",
+    "trace": "   at AdministrationSystem.AdministrationSystem.Organization.BranchCategoryAr.TestsBranchCategoryAr.__a$_around_BranchCategoryPage_100663371_o() in D:\\selenium Project C#\\AdministrationSystem\\AdministrationSystem\\AdministrationSystem\\Organization\\BranchCategory\\BranchCategoryAr.cs:line 67\r\n   at AdministrationSystem.AdministrationSystem.Organization.BranchCategoryAr.TestsBranchCategoryAr.__a$_around_BranchCategoryPage_100663371_u(Object[])\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at AdministrationSystem.AdministrationSystem.Organization.BranchCategoryAr.TestsBranchCategoryAr.__a$_around_BranchCategoryPage_100663371_w_0(Object[])\r\n   at AdministrationSystem.AdministrationSystem.Organization.BranchCategoryAr.TestsBranchCategoryAr.BranchCategoryPage()\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "BranchCategoryPage",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Multiple failures or warnings in test:\r\n  1)   Expected string length 12 but was 0. Strings differ at index 0.\r\n  Expected: \"تصنيف الفروع\"\r\n  But was:  <string.Empty>\r\n  -----------^\r\n\r\n  2)   Expected string length 23 but was 39. Strings differ at index 0.\r\n  Expected: \"show the screen of page\"\r\n  But was:  \"Sorry, there's nothing at this address.\"\r\n  -----------^\r\n\r\n",
+        "trace": "   at AdministrationSystem.AdministrationSystem.Organization.BranchCategoryAr.TestsBranchCategoryAr.__a$_around_BranchCategoryPage_100663371_o() in D:\\selenium Project C#\\AdministrationSystem\\AdministrationSystem\\AdministrationSystem\\Organization\\BranchCategory\\BranchCategoryAr.cs:line 67\r\n   at AdministrationSystem.AdministrationSystem.Organization.BranchCategoryAr.TestsBranchCategoryAr.__a$_around_BranchCategoryPage_100663371_u(Object[])\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at AdministrationSystem.AdministrationSystem.Organization.BranchCategoryAr.TestsBranchCategoryAr.__a$_around_BranchCategoryPage_100663371_w_0(Object[])\r\n   at AdministrationSystem.AdministrationSystem.Organization.BranchCategoryAr.TestsBranchCategoryAr.BranchCategoryPage()\r\n"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Card title and show the screen in the page",
+          "status": "failed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "Multiple failures or warnings in test:\r\n  1)   Expected string length 12 but was 0. Strings differ at index 0.\r\n  Expected: \"تصنيف الفروع\"\r\n  But was:  <string.Empty>\r\n  -----------^\r\n\r\n  2)   Expected string length 23 but was 39. Strings differ at index 0.\r\n  Expected: \"show the screen of page\"\r\n  But was:  \"Sorry, there's nothing at this address.\"\r\n  -----------^\r\n\r\n",
+            "trace": "   at NUnit.Framework.Assert.Multiple(TestDelegate testDelegate)\r\n   at AdministrationSystem.AdministrationSystem.Organization.BranchCategoryAr.TestsBranchCategoryAr.__a$_around_BranchCategoryPage_100663371_o() in D:\\selenium Project C#\\AdministrationSystem\\AdministrationSystem\\AdministrationSystem\\Organization\\BranchCategory\\BranchCategoryAr.cs:line 67\r\n   at AdministrationSystem.AdministrationSystem.Organization.BranchCategoryAr.TestsBranchCategoryAr.__a$_around_BranchCategoryPage_100663371_u(Object[])\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1702808023379,
+          "stop": 1702808147172
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "be1bceee407d4987b57a62d13375c6f1-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1702808012331,
+      "stop": 1702808147576
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1702808012330,
+  "stop": 1702808147583
+}

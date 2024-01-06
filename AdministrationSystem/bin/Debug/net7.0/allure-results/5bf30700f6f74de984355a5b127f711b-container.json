@@ -1,0 +1,30 @@
+{
+  "uuid": "ce07c97e-01a1-4218-9d2e-70e31ed68a25-tc-0-1000",
+  "name": "AdministrationSystem.AdministrationSystem.SetUp.LanguageDefinitionArabic.TestsLanguageDefinitionArabicPage.LanguageDefinitionPage",
+  "children": [
+    "7906693a-0b95-4ed0-b23f-dda10ac7e2b6-tr-0-1001"
+  ],
+  "befores": [
+    {
+      "name": "SetUp",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementNotInteractableException : element not interactable\n  (Session info: chrome=119.0.6045.159)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.SendKeys(String text)\r\n   at AdministrationSystem.AdministrationSystem.SetUp.LanguageDefinitionArabic.TestsLanguageDefinitionArabicPage.__a$_around_LanguageDefinitionPage_100663304_o() in D:\\selenium Project C#\\AdministrationSystem\\AdministrationSystem\\AdministrationSystem\\SetUp\\LanguageDefinition\\LanguageDefinitionArabic.cs:line 63\r\n   at AdministrationSystem.AdministrationSystem.SetUp.LanguageDefinitionArabic.TestsLanguageDefinitionArabicPage.__a$_around_LanguageDefinitionPage_100663304_u(Object[])\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at AdministrationSystem.AdministrationSystem.SetUp.LanguageDefinitionArabic.TestsLanguageDefinitionArabicPage.__a$_around_LanguageDefinitionPage_100663304_w_0(Object[])\r\n   at AdministrationSystem.AdministrationSystem.SetUp.LanguageDefinitionArabic.TestsLanguageDefinitionArabicPage.LanguageDefinitionPage()\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1700318395209,
+      "stop": 1700318395209
+    }
+  ],
+  "afters": [],
+  "links": [],
+  "start": 1700318320512,
+  "stop": 1700318395262
+}

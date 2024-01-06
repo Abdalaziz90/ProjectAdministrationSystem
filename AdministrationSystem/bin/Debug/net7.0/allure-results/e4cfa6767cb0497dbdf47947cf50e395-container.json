@@ -1,0 +1,30 @@
+{
+  "uuid": "2fb176f9-4a10-4161-b466-6df3bb600a46-tc-0-1000",
+  "name": "AdministrationSystem.AdministrationSystem.SetUp.LanguageDefinitionArabic.TestsLanguageDefinitionArabicPage.LanguageDefinitionPage",
+  "children": [
+    "4c370b36-79ac-4b71-962d-fe87c737e878-tr-0-1001"
+  ],
+  "befores": [
+    {
+      "name": "SetUp",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"dialog-d36a6e88-f84d-49e4-9074-7ce0ea9740b4_dialog-content\"]/form/div/div/div[5]/div/label/span[1]\"}\n  (Session info: chrome=119.0.6045.159); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at AdministrationSystem.AdministrationSystem.SetUp.LanguageDefinitionArabic.TestsLanguageDefinitionArabicPage.__a$_around_LanguageDefinitionPage_100663304_o() in D:\\selenium Project C#\\AdministrationSystem\\AdministrationSystem\\AdministrationSystem\\SetUp\\LanguageDefinition\\LanguageDefinitionArabic.cs:line 67\r\n   at AdministrationSystem.AdministrationSystem.SetUp.LanguageDefinitionArabic.TestsLanguageDefinitionArabicPage.__a$_around_LanguageDefinitionPage_100663304_u(Object[])\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at AdministrationSystem.AdministrationSystem.SetUp.LanguageDefinitionArabic.TestsLanguageDefinitionArabicPage.__a$_around_LanguageDefinitionPage_100663304_w_0(Object[])\r\n   at AdministrationSystem.AdministrationSystem.SetUp.LanguageDefinitionArabic.TestsLanguageDefinitionArabicPage.LanguageDefinitionPage()\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1700241271158,
+      "stop": 1700241271158
+    }
+  ],
+  "afters": [],
+  "links": [],
+  "start": 1700241171670,
+  "stop": 1700241271202
+}

@@ -1,0 +1,30 @@
+{
+  "uuid": "481fb3db-8922-4177-a400-6b665dbba99b-tc-0-1000",
+  "name": "AdministrationSystem.AdministrationSystem.SetUp.LanguageDefinitionArabic.TestsLanguageDefinitionArabicPage.LanguageDefinitionPage",
+  "children": [
+    "a7e67dae-3a14-4dad-a782-2342e416d5b7-tr-0-1001"
+  ],
+  "befores": [
+    {
+      "name": "SetUp",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <button class=\"e-control e-btn e-lib e-outline e-primary\" _bl_36=\"\">...</button> is not clickable at point (1443, 212). Other element would receive the click: <a href=\"javascript:;\" class=\"nav-link active\">...</a>\n  (Session info: chrome=119.0.6045.159)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Click()\r\n   at AdministrationSystem.AdministrationSystem.SetUp.LanguageDefinitionArabic.TestsLanguageDefinitionArabicPage.__a$_around_LanguageDefinitionPage_100663304_o() in D:\\selenium Project C#\\AdministrationSystem\\AdministrationSystem\\AdministrationSystem\\SetUp\\LanguageDefinition\\LanguageDefinitionArabic.cs:line 60\r\n   at AdministrationSystem.AdministrationSystem.SetUp.LanguageDefinitionArabic.TestsLanguageDefinitionArabicPage.__a$_around_LanguageDefinitionPage_100663304_u(Object[])\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at AdministrationSystem.AdministrationSystem.SetUp.LanguageDefinitionArabic.TestsLanguageDefinitionArabicPage.__a$_around_LanguageDefinitionPage_100663304_w_0(Object[])\r\n   at AdministrationSystem.AdministrationSystem.SetUp.LanguageDefinitionArabic.TestsLanguageDefinitionArabicPage.LanguageDefinitionPage()\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1700317975086,
+      "stop": 1700317975086
+    }
+  ],
+  "afters": [],
+  "links": [],
+  "start": 1700317853375,
+  "stop": 1700317975315
+}
